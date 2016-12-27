@@ -1,0 +1,44 @@
+/* -- EXTERNAL SOURCES -- */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700,300,400italic,700italic,800);
+/* ^^ EXTERNAL SOURCES ^^ */
+
+
+/* -- CSS RESETS -- */
+*{
+  box-sizing:border-box;
+}
+*:focus{
+  outline:none;
+}
+html,body{
+  height:100%;
+}
+html,body,div{
+  padding:0;
+  margin:0;
+}
+a{
+  color:inherit;
+  text-decoration:none;
+}
+/* ^^ CSS RESETS ^^ */
+
+
+/* -- GLOBAL ATTRIBUTES -- */
+body{
+  /*font-family:"Tahoma",sans-serif;*/
+  font-family: 'Open Sans', sans-serif;
+}
+/* ^^ GLOBAL ATTRIBUTES ^^ */
+
+
+/* [Ads] */
+.advert{
+  display:block;
+  background:rgba(0,0,0,0.1);
+  border-radius:4px;
+}
+.advert[data-dims="180x90"]{
+  width:180px;
+  height:90px;
+}
