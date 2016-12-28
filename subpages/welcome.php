@@ -5,10 +5,10 @@ include("../common/global_func.php");
 	<div class="bracket-box-contain" id="main-site-title">
 		<div class="bracket-box">
 	    <div class="title">
-	      SABREOK
+	      JAKSON KALLIO
 	    </div>
 			<div class="description">
-				The personal website of <strong>Jakson Kallio</strong>. Student at U of M Duluth, freelance developer, cryptocurrency enthusiast, vector artist. My dream is to someday work for Google or another innovative technology company.
+				Student at U of M Duluth, freelance developer, cryptocurrency enthusiast, vector artist. My dream is to someday work for an innovative technology company.
 			</div>
 			<div class="nav">
 				<a href="?s=resume" target="_BLANK">Resume/Portfolio</a>
