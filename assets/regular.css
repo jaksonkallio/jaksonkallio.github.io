@@ -198,11 +198,11 @@ body{
 }
 #welcome-slide #main-site-title .title{
   text-align:center;
-  font-size:3em;
-  color:#515151;
-  font-family:'Viga';
-  letter-spacing:15px;
-  font-weight:bold;
+	font-size: 1.5em
+  color: #515151;
+  font-family: 'Viga';
+  letter-spacing: 4px;
+  font-weight: bold;
 }
 #welcome-slide #main-site-title .nav{
   width:100%;
