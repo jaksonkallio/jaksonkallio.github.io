@@ -13,7 +13,11 @@
   </head>
   <body>
     <div id="page">
-      
+      <div id="nametag">
+        <img class="avatar" src="http://placehold.it/100x100"/>
+        <div class="name">Jakson Kallio</div>
+        <div class="occupation">developer, CS student, cryptocurrency enthusiast</div>
+      </div>
     </div>
   </body>
 </html>

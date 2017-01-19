@@ -22,7 +22,8 @@ html, body, div{
 /* -- GLOBAL ATTRIBUTES -- */
 body{
   font-family: 'Quicksand', sans-serif;
-  font-size:14px;
+  font-size: 14px;
+  background: #ECECEC;
 }
 ::selection {
   background: #363A46; /* WebKit/Blink Browsers */
@@ -32,4 +33,28 @@ body{
 }
 /* ^^ GLOBAL ATTRIBUTES ^^ */
 
+#name-tag {
+  width: 200px;
+  height: 40px;
+}
+#name-tag > .avatar, #name-tag > .name, #name-tag > .occupation {
+  position: absolute;
+}
+#name-tag > .avatar {
+  left: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#name-tag > .name, #name-tag > .occupation {
+  left: 60px;
+  height: 20px;
+  line-height: 20px;
+}
+#name-tag > .name {
+  top: 0px;
+}
+#name-tag > .occupation {
+  bottom: 0px;
+}
 
