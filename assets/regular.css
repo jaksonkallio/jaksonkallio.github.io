@@ -23,7 +23,7 @@ html, body, div{
 body{
   font-family: 'Quicksand', sans-serif;
   font-size: 14px;
-  background: #ECECEC;
+  color: #2c3e50
 }
 ::selection {
   background: #363A46; /* WebKit/Blink Browsers */
@@ -33,28 +33,43 @@ body{
 }
 /* ^^ GLOBAL ATTRIBUTES ^^ */
 
-#name-tag {
-  width: 200px;
-  height: 40px;
+#nametag {
+  width: 283px;
+  margin: 50px auto;
+  height: 100px;
+  position: relative;
+  background: #ffffff;
+  padding: 10px;
+  box-shadow:
+    0px 1px 5px -1px rgba(0, 0, 0, 0.4),
+    0px 0px 10px -1px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
 }
-#name-tag > .avatar, #name-tag > .name, #name-tag > .occupation {
+#nametag > .avatar, #nametag > .name, #nametag > .occupation {
   position: absolute;
 }
-#name-tag > .avatar {
+#nametag > .avatar {
   left: 10px;
-  width: 40px;
-  height: 40px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
 }
-#name-tag > .name, #name-tag > .occupation {
-  left: 60px;
+#nametag > .name, #nametag > .occupation {
+  left: 100px;
+  width: 173px;
+}
+#nametag > .name {
+  top: 20px;
+  font-size: 2em;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+#nametag > .occupation {
+  bottom: 20px;
   height: 20px;
+  text-align: center;
   line-height: 20px;
-}
-#name-tag > .name {
-  top: 0px;
-}
-#name-tag > .occupation {
-  bottom: 0px;
+  font-style: italic;
 }
 
