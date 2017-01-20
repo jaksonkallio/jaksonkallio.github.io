@@ -74,9 +74,18 @@ p {
 
 #location-pin {
   text-align: center;
+  padding: 20px;
 }
 #location-pin span {
   color: rgba(0, 0, 0, 0.4);
+  line-height: 20px;
+  height: 20px;
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+#location-pin img {
+  height: 14px;
+  vertical-align: -3px;
 }
 
 #content {
