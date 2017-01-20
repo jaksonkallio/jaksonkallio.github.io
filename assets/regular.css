@@ -1,5 +1,5 @@
 /* -- EXTERNAL SOURCES -- */
-@import url('https://fonts.googleapis.com/css?family=Quicksand:300,400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700');
 /* ^^ EXTERNAL SOURCES ^^ */
 
 /* -- CSS RESETS -- */
@@ -22,7 +22,7 @@ html, body, div{
 
 /* -- GLOBAL ATTRIBUTES -- */
 body{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   color: #2c3e50
   background: rgb(255,255,255);
@@ -74,7 +74,7 @@ body{
 .sector .miniheader {
   width: calc(80%);
   font-weight: 700;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.12);
+  margin-left: 10px;
   text-transform: uppercase;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
