@@ -5,6 +5,7 @@
 /* -- CSS RESETS -- */
 * {
   box-sizing: border-box;
+  cursor: default;
 }
 *:focus {
   outline: none;
@@ -24,6 +25,11 @@ body{
   font-family: 'Quicksand', sans-serif;
   font-size: 14px;
   color: #2c3e50
+  background: rgb(255,255,255);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(236,233,230,1) 100%);
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(236,233,230,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(236,233,230,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ece9e6',GradientType=0 );
 }
 ::selection {
   background: #363A46; /* WebKit/Blink Browsers */
@@ -34,42 +40,21 @@ body{
 /* ^^ GLOBAL ATTRIBUTES ^^ */
 
 #nametag {
-  width: 283px;
-  margin: 50px auto;
-  height: 100px;
-  position: relative;
-  background: #ffffff;
+  width: 200px;
   padding: 10px;
+  background: rgb(142,84,233);
+background: -moz-linear-gradient(45deg, rgba(142,84,233,1) 0%, rgba(71,118,230,1) 100%);
+background: -webkit-linear-gradient(45deg, rgba(142,84,233,1) 0%,rgba(71,118,230,1) 100%);
+background: linear-gradient(45deg, rgba(142,84,233,1) 0%,rgba(71,118,230,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e54e9', endColorstr='#4776e6',GradientType=1 );
+  color: #FFFFFF;
   box-shadow:
     0px 1px 5px -1px rgba(0, 0, 0, 0.4),
     0px 0px 10px -1px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-}
-#nametag > .avatar, #nametag > .name, #nametag > .occupation {
-  position: absolute;
-}
-#nametag > .avatar {
-  left: 10px;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-}
-#nametag > .name, #nametag > .occupation {
-  left: 100px;
-  width: 173px;
-}
-#nametag > .name {
-  top: 20px;
   font-size: 2em;
-  height: 40px;
+  font-weight: 300;
+  margin: 20% auto;
   text-align: center;
-  line-height: 40px;
-}
-#nametag > .occupation {
-  bottom: 20px;
-  height: 20px;
-  text-align: center;
-  line-height: 20px;
-  font-style: italic;
 }
 
