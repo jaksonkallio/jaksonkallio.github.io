@@ -23,7 +23,7 @@ html, body, div{
 /* -- GLOBAL ATTRIBUTES -- */
 body{
   font-family: 'Quicksand', sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #2c3e50
   background: rgb(255,255,255);
   background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(236,233,230,1) 100%);
@@ -39,6 +39,11 @@ body{
 }
 /* ^^ GLOBAL ATTRIBUTES ^^ */
 
+#page{
+  width: 500px;
+  margin: 0px auto;
+}
+
 #nametag {
   width: 200px;
   padding: 10px;
@@ -52,9 +57,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8e54e9', end
     0px 1px 5px -1px rgba(0, 0, 0, 0.4),
     0px 0px 10px -1px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
-  font-size: 2em;
+  font-size: 1.5em;
   font-weight: 300;
   margin: 20% auto;
   text-align: center;
+}
+
+#content .col {
+  display: inline-block;
+  width: calc(50%);
 }
 
