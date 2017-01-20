@@ -151,7 +151,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2980', end
 }
 .interest-tags > div {
   display: inline-block;
-  padding: 2px 8px;
+  padding: 3px 8px;
   margin-right: 2px;
   margin-bottom: 2px;
   background: rgba(0, 0, 0, 0.12);
