@@ -44,6 +44,7 @@ p {
 
 #page{
   width: calc(80%);
+  max-width: 600px;
   position: fixed;
   left: 50%;
   top: 50%;
@@ -101,12 +102,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2980', end
 }
 #content .col:nth-child(1) {
   text-align: right;
-}
-#content .col:nth-child(1), #content .col:nth-child(3){
   width: 150px;
 }
 #content .col:nth-child(2) {
-  width: calc(100% - 300px);
+  width: calc(50% - 75px);
+}
+#content .col:nth-child(3) {
+  width: calc(50% - 75px);
+}
+
+.invis-sector {
+  margin-top: 20px;
 }
 
 .sector .miniheader {
