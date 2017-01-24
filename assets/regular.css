@@ -164,10 +164,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2980', end
   color: rgba(0, 0, 0, 0.4);
 }
 
-.title-list a:before {
-  content: "★";
-  margin-right: 3px;
-}
 .title-list a {
   display: block;
   color: inherit;
