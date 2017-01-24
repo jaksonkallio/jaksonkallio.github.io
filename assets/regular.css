@@ -165,13 +165,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2980', end
 }
 
 .title-list a {
-  display: block;
   color: inherit;
-  opacity: 0.8;
-  margin-bottom: 4px;
+  display: block;
   text-decoration: none;
+  margin-bottom: 8px;
+}
+.title-list .title {
+  opacity: 0.8;
   transition: opacity 0.2s;
 }
-.title-list a:hover {
+.title-list .subtitle {
+  font-size: 0.75em;
+  opacity: 0.4;
+}
+.title-list a:hover .title {
   opacity: 1.0;
 }
