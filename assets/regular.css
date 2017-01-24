@@ -181,3 +181,27 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2980', end
 .title-list a:hover .title {
   opacity: 1.0;
 }
+
+.thumbnail-links .item {
+  width: calc(50%);
+  height: 100px;
+  background: #ffffff;
+  border-radius: 8px;
+}
+.thumbnail-links .item .thumbnail {
+  height: 70px;
+  background-size: cover;
+  background-position: center center;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+.thumbnail-links .item .label {
+  height: 30px;
+  padding: 5px;
+  line-height: 20px;
+  text-align: center;
+}
+.thumbnail-links a {
+  color: inherit;
+  text-decoration: none;
+}
