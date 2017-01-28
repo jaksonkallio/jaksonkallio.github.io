@@ -52,7 +52,7 @@ p {
 	transform: translateX(-50%);
 }
 
-#nametag, .sector .miniheader, .nicelink:hover {
+#nametag, .sector .miniheader, .nicelink:hover, .icon-grid .item:hover .label span {
 	background: rgb(26,41,128);
 	background: -moz-linear-gradient(45deg, rgba(26,41,128,1) 0%, rgba(38,208,206,1) 100%);
 	background: -webkit-linear-gradient(45deg, rgba(26,41,128,1) 0%,rgba(38,208,206,1) 100%);
@@ -184,7 +184,7 @@ p {
 	width: calc(100% / 2);
 	height: 80px;
 }
-.icon-grid .item .icon img{
+.icon-grid .item .icon img {
 	display: block;
 	margin: 0px auto;
 	height: 100%;
@@ -194,4 +194,13 @@ p {
 	height: 20px;
 	line-height: 20px;
 	text-align: center;
+}
+.icon-grid .item .label span {
+	display: inline-block;
+	padding: 0px 2px;
+	transition: padding 0.2s;
+}
+.icon-grid .item:hover .label span {
+	padding: 0px 6px;
+	color: #ffffff;
 }

@@ -44,7 +44,7 @@
 									<img src="assets/structure/icons/default-project-icon.svg" />
 								</div>
 								<div class="label">
-									Label
+									<span>Label</span>
 								</div>
 							</div>
 						</div>
