@@ -41,7 +41,7 @@
 						<div class="icon-grid">
 							<div class="item">
 								<div class="icon">
-									<img src="assets/structure/icons/blocks.svg" />
+									<img src="assets/structure/icons/default-project-icon.svg" />
 								</div>
 								<div class="label">
 									Label
