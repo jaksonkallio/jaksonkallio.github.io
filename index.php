@@ -21,7 +21,6 @@
 			<div id="content">
 				<div class="col">
 					<div class="sector">
-						<!--<div class="miniheader">social</div>-->
 						<div class="interest-tags">
 							<div>arch linux</div><div>bitcoin</div><div>c++</div><div>html5</div><div>css3</div><div>python</div>
 						</div>
@@ -39,7 +38,6 @@
 					</div>
 				</div><div class="col">
 					<div class="sector">
-						<!--<div class="miniheader">projects</div>-->
 						<div class="icon-grid">
 							<div class="item">
 								<div class="icon">
@@ -53,7 +51,6 @@
 					</div>
 				</div><div class="col">
 					<div class="sector">
-						<!--<div class="miniheader">writings</div>-->
 						<div class="title-list">
 							<a href="#">
 								<div class="title">Article #1 Title</div>
