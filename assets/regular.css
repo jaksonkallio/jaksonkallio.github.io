@@ -180,10 +180,12 @@ p {
 
 .icon-grid .item {
 	width: calc(100% / 2);
+	height: 50px;
 }
 .icon-grid .item .icon img{
 	display: block;
 	margin: 0px auto;
+	height: 100%;
 }
 .icon-grid .item .label {
 	height: 20px;
