@@ -40,11 +40,15 @@
         </div><div class="col">
           <div class="sector">
             <!--<div class="miniheader">projects</div>-->
-            <div class="thumbnail-links">
-              <a href="#">
-                <div class="item">
-                  <img src="http://jaksonkallio.com/assets/structure/project-thumbnails/meshwork.png" class="thumbnail"/>
-            </div></a>
+            <div class="icon-grid">
+              <div class="item">
+                <div class="icon">
+                  <img src="assets/structure/icons/blocks.svg" />
+                </div>
+                <div class="label">
+                  Label
+                </div>
+              </div>
             </div>
           </div>
         </div><div class="col">
@@ -59,7 +63,7 @@
                 <div class="title">Article #2 Title</div>
                 <div class="subtitle">183 hits</div>
               </a>
-            </div> 
+            </div>
           </div>
         </div>
       </div>

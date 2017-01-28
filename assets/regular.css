@@ -182,18 +182,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2980', end
   opacity: 1.0;
 }
 
-.thumbnail-links .item {
-  height: 60px;
-  padding: 5px;
-  width: calc(50%);
+.icon-grid .item {
+  width: calc(100% / 2);
 }
-.thumbnail-links .item:nth-child(1), .thumbnail-links .item:nth-child(2) {
-  padding-top: 0px;
+.icon-grid .item .icon img{
+	display: block;
+	margin: 0px auto;
 }
-.thumbnail-links .item .thumbnail {
-  height: 50px;
-  max-width: calc(100%);
-  display: block;
-  border-radius: 2px;
-  margin: 0px auto;
+.icon-grid .item .label {
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
 }
