@@ -182,8 +182,10 @@ p {
 
 .icon-grid .item {
 	width: calc(100% / 2);
-	height: 80px;
 	cursor: pointer;
+}
+.icon-grid .item .icon {
+	height: 80px;
 }
 .icon-grid .item .icon img {
 	display: block;
