@@ -39,6 +39,24 @@
 				</div><div class="col">
 					<div class="sector">
 						<div class="icon-grid">
+							<?
+							$project_list = doQuery("SELECT id, techname, alias, type, url, hits, locally_hosted, whencreated FROM projects ORDER BY hits DESC LIMIT 100");
+							while($project = mysqli_fetch_array($project_list, MYSQLI_ASSOC)){
+								$project_link = $project['url'];
+								?>
+								<a href="<? echo($project_link); ?>" target="_BLANK">
+									<div class="item">
+										<div class="icon">
+											<img src="assets/structure/icons/default-project-icon.svg" />
+										</div>
+										<div class="label">
+											<span><? echo($project['alias']); ?></span>
+										</div>
+									</div>
+								</a>
+								<?
+							}
+							?>
 							<div class="item">
 								<div class="icon">
 									<img src="assets/structure/icons/default-project-icon.svg" />
