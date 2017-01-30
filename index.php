@@ -1,3 +1,6 @@
+<?
+include('common/global_func.php');
+?>
 <!DOCTYPE html>
 <html>
 	<head>
