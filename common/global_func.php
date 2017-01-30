@@ -1,4 +1,4 @@
-<?
+<?php
 include('passwords.php');
 include('constants.php');
 include('dbconnect.php');
