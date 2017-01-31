@@ -240,6 +240,7 @@ p {
 
 #content .row {
 	display: block;
+	margin-bottom: 15px;
 }
 #content .row .row-title {
 	font-size: 1.25em;
