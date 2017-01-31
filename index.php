@@ -23,11 +23,6 @@ include('common/global_func.php');
 			</div>
 			<div id="content">
 				<div class="row">
-					<div class="taglist">
-						<div class="tag">arch linux</div><div class="tag">bitcoin</div><div class="tag">c++</div><div class="tag">html5</div><div class="tag">css3</div><div class="tag">python</div>
-					</div>
-				</div>
-				<div class="row">
 					<div class="row-title inline">projects</div>
 					<div class="taglist inline"><?
 						$project_list = doQuery("SELECT id, techname, alias, type, url, hits, locally_hosted, whencreated FROM projects ORDER BY hits DESC LIMIT 100");
@@ -38,6 +33,12 @@ include('common/global_func.php');
 							<?
 						}
 					?></div>
+				</div>
+				<div class="row">
+					<div class="row-title inline">interests</div>
+					<div class="taglist inline">
+						<div class="tag">arch linux</div><div class="tag">bitcoin</div><div class="tag">c++</div><div class="tag">html5</div><div class="tag">css3</div><div class="tag">python</div>
+					</div>
 				</div>
 				<!--<div class="row">
 					<div class="sector">
