@@ -230,6 +230,7 @@ p {
 	background: rgba(0, 0, 0, 0.12);
 	color: rgba(0, 0, 0, 0.4);
 	transform: scale(1.0);
+	text-transform: lowercase;
 	transition: transform 0.2s;
 }
 .taglist .tag:first-child {
