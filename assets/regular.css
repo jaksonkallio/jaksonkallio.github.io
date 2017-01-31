@@ -44,8 +44,8 @@ p {
 }
 
 #page{
-	width: calc(80%);
-	max-width: 600px;
+	width: 400px;
+	max-width: calc(95%);
 	position: fixed;
 	left: 50%;
 	top: 10%;
