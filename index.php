@@ -23,7 +23,7 @@ include('common/global_func.php');
 			</div>
 			<div id="content">
 				<div class="row">
-					<div class="row-title inline">projects</div>
+					<div class="row-title">projects</div>
 					<div class="taglist inline"><?
 						$project_list = doQuery("SELECT id, techname, alias, type, url, hits, locally_hosted, whencreated FROM projects ORDER BY hits DESC LIMIT 100");
 						while($project = mysqli_fetch_array($project_list, MYSQLI_ASSOC)){
@@ -33,7 +33,7 @@ include('common/global_func.php');
 					?></div>
 				</div>
 				<div class="row">
-					<div class="row-title inline">interests</div>
+					<div class="row-title">interests</div>
 					<div class="taglist inline">
 						<div class="tag">arch linux</div><div class="tag">bitcoin</div><div class="tag">c++</div><div class="tag">html5</div><div class="tag">css3</div><div class="tag">python</div>
 					</div>

@@ -240,12 +240,13 @@ p {
 
 #content .row {
 	display: block;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 #content .row .row-title {
 	font-size: 1.25em;
 	font-weight: 300;
 	text-transform: lowercase;
+	margin-bottom: 15px;
 }
 #content .row .row-title.inline {
 	display: inline-block;
