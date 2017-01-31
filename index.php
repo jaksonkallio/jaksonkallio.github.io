@@ -19,24 +19,13 @@ include('common/global_func.php');
 			<div id="nametag">Jakson Kallio</div>
 			<div id="location-pin">
 				<img src="assets/structure/icons/location.svg" />
-				<span>Duluth, Minnesota, USA</span>
+				<span>Duluth, Minnesota, USA<br><a href="https://twitter.com/jaksonkallio">twitter</a>&bull;<a href="https://github.com/jaksonkallio">GitHub</a>&bull;<a class="nicelink" href="https://reddit.com/u/jaksonk">Reddit</a></span>
 			</div>
 			<div id="content">
 				<div class="col">
 					<div class="sector">
 						<div class="interest-tags">
 							<div>arch linux</div><div>bitcoin</div><div>c++</div><div>html5</div><div>css3</div><div>python</div>
-						</div>
-						<div class="invis-sector">
-							<div>
-								<a class="nicelink" href="https://twitter.com/jaksonkallio">Twitter</a>
-							</div>
-							<div>
-								<a class="nicelink" href="https://github.com/jaksonkallio">GitHub</a>
-							</div>
-							<div>
-								<a class="nicelink" href="https://reddit.com/u/jaksonk">Reddit</a>
-							</div>
 						</div>
 					</div>
 				</div><div class="col">
@@ -49,9 +38,6 @@ include('common/global_func.php');
 								?>
 								<a href="<? echo($project_link); ?>" target="_BLANK">
 									<div class="item">
-										<div class="icon">
-											<img src="assets/structure/icons/default-project-icon.svg" />
-										</div>
 										<div class="label">
 											<span><? echo($project['alias']); ?></span>
 										</div>
@@ -60,17 +46,9 @@ include('common/global_func.php');
 								<?
 							}
 							?>
-							<div class="item">
-								<div class="icon">
-									<img src="assets/structure/icons/default-project-icon.svg" />
-								</div>
-								<div class="label">
-									<span>Label</span>
-								</div>
-							</div>
 						</div>
 					</div>
-				</div><div class="col">
+				</div><!--<div class="col">
 					<div class="sector">
 						<div class="title-list">
 							<a href="#">
@@ -83,7 +61,7 @@ include('common/global_func.php');
 							</a>
 						</div>
 					</div>
-				</div>
+				</div>-->
 			</div>
 		</div>
 	</body>
