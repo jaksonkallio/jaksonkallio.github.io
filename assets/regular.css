@@ -223,8 +223,8 @@ p {
 	display: block;
 }
 #content .row .row-title {
-	font-size: 1.5em;
-	font-weight: bold;
+	font-size: 1.25em;
+	font-weight: 300;
 	text-transform: lowercase;
 }
 #content .row .row-title.inline {
