@@ -23,25 +23,21 @@ include('common/global_func.php');
 			</div>
 			<div id="content">
 				<div class="row">
-					<div class="sector">
-						<div class="interest-tags">
-							<div>arch linux</div><div>bitcoin</div><div>c++</div><div>html5</div><div>css3</div><div>python</div>
-						</div>
+					<div class="taglist">
+						<div class="tag">arch linux</div><div class="tag">bitcoin</div><div class="tag">c++</div><div class="tag">html5</div><div class="tag">css3</div><div class="tag">python</div>
 					</div>
 				</div>
 				<div class="row">
-					<div class="sector">
-						<div class="row-title inline">projects</div>
-						<div class="taglist inline"><?
-							$project_list = doQuery("SELECT id, techname, alias, type, url, hits, locally_hosted, whencreated FROM projects ORDER BY hits DESC LIMIT 100");
-							while($project = mysqli_fetch_array($project_list, MYSQLI_ASSOC)){
-								$project_link = $project['url'];
-								?>
-								<a href="<? echo($project_link); ?>" target="_BLANK"><div class="tag"><? echo($project['alias']); ?></div></a>
-								<?
-							}
-						?></div>
-					</div>
+					<div class="row-title inline">projects</div>
+					<div class="taglist inline"><?
+						$project_list = doQuery("SELECT id, techname, alias, type, url, hits, locally_hosted, whencreated FROM projects ORDER BY hits DESC LIMIT 100");
+						while($project = mysqli_fetch_array($project_list, MYSQLI_ASSOC)){
+							$project_link = $project['url'];
+							?>
+							<a href="<? echo($project_link); ?>" target="_BLANK"><div class="tag"><? echo($project['alias']); ?></div></a>
+							<?
+						}
+					?></div>
 				</div>
 				<!--<div class="row">
 					<div class="sector">
