@@ -22,33 +22,28 @@ include('common/global_func.php');
 				<span>Duluth, Minnesota, USA<br><a href="https://twitter.com/jaksonkallio">twitter</a>&bull;<a href="https://github.com/jaksonkallio">github</a>&bull;<a href="https://reddit.com/u/jaksonk">reddit</a></span>
 			</div>
 			<div id="content">
-				<div class="col">
+				<div class="row">
 					<div class="sector">
 						<div class="interest-tags">
 							<div>arch linux</div><div>bitcoin</div><div>c++</div><div>html5</div><div>css3</div><div>python</div>
 						</div>
 					</div>
-				</div><div class="col">
+				</div>
+				<div class="row">
 					<div class="sector">
-						<div class="icon-grid">
-							<?
+						<div class="row-title inline">projects</div>
+						<div class="taglist"><?
 							$project_list = doQuery("SELECT id, techname, alias, type, url, hits, locally_hosted, whencreated FROM projects ORDER BY hits DESC LIMIT 100");
 							while($project = mysqli_fetch_array($project_list, MYSQLI_ASSOC)){
 								$project_link = $project['url'];
 								?>
-								<a href="<? echo($project_link); ?>" target="_BLANK">
-									<div class="item">
-										<div class="label">
-											<span><? echo($project['alias']); ?></span>
-										</div>
-									</div>
-								</a>
+								<a href="<? echo($project_link); ?>" target="_BLANK"><div class="tag"><? echo($project['alias']); ?></div></a>
 								<?
 							}
-							?>
-						</div>
+						?></div>
 					</div>
-				</div><!--<div class="col">
+				</div>
+				<!--<div class="row">
 					<div class="sector">
 						<div class="title-list">
 							<a href="#">

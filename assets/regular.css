@@ -218,3 +218,12 @@ p {
 	padding: 3px 8px;
 	color: #ffffff;
 }
+
+#content .row {
+	display: block;
+}
+#content .row .row-title {
+	font-size: 1.5em;
+	font-weight: bold;
+	text-transform: lowercase;
+}
