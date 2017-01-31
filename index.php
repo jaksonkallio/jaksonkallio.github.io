@@ -28,9 +28,7 @@ include('common/global_func.php');
 						$project_list = doQuery("SELECT id, techname, alias, type, url, hits, locally_hosted, whencreated FROM projects ORDER BY hits DESC LIMIT 100");
 						while($project = mysqli_fetch_array($project_list, MYSQLI_ASSOC)){
 							$project_link = $project['url'];
-							?>
-							<a href="<? echo($project_link); ?>" target="_BLANK"><div class="tag"><? echo($project['alias']); ?></div></a>
-							<?
+							?><a href="<? echo($project_link); ?>" target="_BLANK"><div class="tag"><? echo($project['alias']); ?></div></a><?
 						}
 					?></div>
 				</div>
