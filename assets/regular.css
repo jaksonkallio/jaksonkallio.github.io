@@ -91,7 +91,10 @@ p {
 #location-pin span a {
 	color: inherit;
 	margin: 0px 5px;
+	font-weight: bold;
 	text-decoration: none;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 #content {
