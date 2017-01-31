@@ -19,7 +19,7 @@ include('common/global_func.php');
 			<div id="nametag">Jakson Kallio</div>
 			<div id="location-pin">
 				<img src="assets/structure/icons/location.svg" />
-				<span>Duluth, Minnesota, USA<br><a href="https://twitter.com/jaksonkallio">twitter</a>&bull;<a href="https://github.com/jaksonkallio">GitHub</a>&bull;<a class="nicelink" href="https://reddit.com/u/jaksonk">Reddit</a></span>
+				<span>Duluth, Minnesota, USA<br><a href="https://twitter.com/jaksonkallio">twitter</a>&bull;<a href="https://github.com/jaksonkallio">github</a>&bull;<a href="https://reddit.com/u/jaksonk">reddit</a></span>
 			</div>
 			<div id="content">
 				<div class="col">

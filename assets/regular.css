@@ -88,6 +88,11 @@ p {
 	height: 14px;
 	vertical-align: -3px;
 }
+#location-pin span a {
+	color: inherit;
+	margin: 0px 5px;
+	text-decoration: none;
+}
 
 #content {
 	margin-top: 20px;
