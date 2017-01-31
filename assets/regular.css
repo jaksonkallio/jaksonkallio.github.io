@@ -227,3 +227,10 @@ p {
 	font-weight: bold;
 	text-transform: lowercase;
 }
+#content .row .row-title.inline {
+	display: inline-block;
+	margin-right: 15px;
+}
+#content .row .row-title.inline:after {
+	content: ":";
+}
