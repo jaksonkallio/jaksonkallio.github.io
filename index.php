@@ -32,7 +32,7 @@ include('common/global_func.php');
 				<div class="row">
 					<div class="sector">
 						<div class="row-title inline">projects</div>
-						<div class="taglist"><?
+						<div class="taglist inline"><?
 							$project_list = doQuery("SELECT id, techname, alias, type, url, hits, locally_hosted, whencreated FROM projects ORDER BY hits DESC LIMIT 100");
 							while($project = mysqli_fetch_array($project_list, MYSQLI_ASSOC)){
 								$project_link = $project['url'];

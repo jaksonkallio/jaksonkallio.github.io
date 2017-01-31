@@ -219,6 +219,9 @@ p {
 	color: #ffffff;
 }
 
+.taglist.inline {
+	display: inline-block;
+}
 .taglist .tag {
 	display: inline-block;
 }
