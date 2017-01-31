@@ -249,6 +249,7 @@ p {
 #content .row .row-title.inline {
 	display: inline-block;
 	margin-right: 15px;
+	width: 90px;
 }
 #content .row .row-title.inline:after {
 	content: ":";
