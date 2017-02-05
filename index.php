@@ -39,7 +39,7 @@ include('common/global_func.php');
 				<div class="row">
 					<div class="row-title">interests</div>
 					<div class="taglist inline">
-						<div class="tag">arch linux</div><div class="tag">bitcoin</div><div class="tag">c++</div><div class="tag">html5</div><div class="tag">css3</div><div class="tag">python</div><div class="tag">storj</div><div class="tag">ethereum</div><div class="tag">monero</div><div class="tag">golem</div>
+						<div class="tag">arch linux</div><div class="tag">bitcoin</div><div class="tag">decentralization</div><div class="tag">cryptography</div><div class="tag">c++</div><div class="tag">web design</div><div class="tag">python</div><div class="tag">ethereum</div><div class="tag">monero</div>
 					</div>
 				</div>
 				<!--<div class="row">
