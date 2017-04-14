@@ -9,7 +9,7 @@ class ProjectList {
 		});
 	}
 	constructor(container){
-		this.loadProjectJson(function(data){
+		this.loadProjectJson(function(projects){
 			$.each(projects, function(key, val){
 				var project_item = $('<a href="'+val['url']+'" target="_BLANK"><div class="tag">'+val['name']+'</div></a>');
 				container.append(project_item);
