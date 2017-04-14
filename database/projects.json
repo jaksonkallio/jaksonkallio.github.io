@@ -1,14 +1,44 @@
 [
 	{
-		"name": "Project Name",
-		"tech_name": "projectname",
-		"is_client": false,
-		"url": "http://bitcoin.org"
+		"name": "Bridon",
+		"tech_name": "bridon",
+		"is_client": true,
+		"url": "http://bridonindustries.com/"
 	},
 	{
-		"name": "Project Name 2",
-		"tech_name": "projectname2",
+		"name": "Dons HWL",
+		"tech_name": "dons-hwl",
+		"is_client": true,
+		"url": "http://donshollowwirelighting.com/"
+	},
+	{
+		"name": "Which Wallet",
+		"tech_name": "whichwallet",
 		"is_client": false,
-		"url": "http://google.com"
+		"url": "http://whichwallet.com/"
+	},
+	{
+		"name": "Mecono",
+		"tech_name": "mecono",
+		"is_client": false,
+		"url": "https://github.com/jaksonkallio/mecono"
+	},
+	{
+		"name": "Altcart",
+		"tech_name": "altcart",
+		"is_client": false,
+		"url": "https://github.com/jaksonkallio/altcart"
+	},
+	{
+		"name": "Tock",
+		"tech_name": "tock",
+		"is_client": false,
+		"url": "https://github.com/jaksonkallio/tock"
+	},
+	{
+		"name": "Pinhead",
+		"tech_name": "pinhead",
+		"is_client": false,
+		"url": "https://github.com/jaksonkallio/pinhead"
 	}
 ]
