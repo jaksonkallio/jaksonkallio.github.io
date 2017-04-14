@@ -1,1 +1,1 @@
-const main_project_list = new ProjectList($("#project-list"));
+var main_project_list = new ProjectList($("#project-list"));
