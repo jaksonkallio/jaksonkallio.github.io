@@ -36,6 +36,12 @@
 		"url": "https://github.com/jaksonkallio/tock"
 	},
 	{
+		"name": "Doc Sync",
+		"tech_name": "doc-sync-client",
+		"is_client": false,
+		"url": "https://github.com/CryptoClubUMD/doc-sync-client"
+	},
+	{
 		"name": "Pinhead",
 		"tech_name": "pinhead",
 		"is_client": false,
