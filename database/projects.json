@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Project Name",
+		"tech_name": "projectname",
+		"is_client": false,
+		"url": "http://bitcoin.org"
+	},
+	{
+		"name": "Project Name 2",
+		"tech_name": "projectname2",
+		"is_client": false,
+		"url": "http://google.com"
+	}
+]
