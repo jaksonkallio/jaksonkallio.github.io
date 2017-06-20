@@ -1,5 +1,5 @@
 /* -- EXTERNAL SOURCES -- */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,900');
 /* ^^ EXTERNAL SOURCES ^^ */
 
 /* -- CSS RESETS -- */
@@ -21,15 +21,13 @@ html, body, div{
 
 /* -- GLOBAL ATTRIBUTES -- */
 body{
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Heebo', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 	color: #2c3e50;
-	background: rgb(255,255,255);
-	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(214,213,209,1) 100%);
-	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(214,213,209,1) 100%);
-	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(214,213,209,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#d6d5d1',GradientType=0 );
+	background: #EB3349;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 ::selection {
 	background: #363A46; /* WebKit/Blink Browsers */
@@ -44,7 +42,7 @@ p {
 }
 
 #page{
-	width: 400px;
+	width: 100%;
 	max-width: calc(95%);
 	position: fixed;
 	left: 50%;
@@ -52,7 +50,7 @@ p {
 	transform: translateX(-50%);
 }
 
-#nametag, .sector .miniheader, .nicelink:hover, .icon-grid .item:hover .label span, #location-pin span a:hover, .taglist a:hover .tag {
+.sector .miniheader, .nicelink:hover, .icon-grid .item:hover .label span, #location-pin span a:hover, .taglist a:hover .tag {
 	background: rgb(26,41,128);
 	background: -moz-linear-gradient(45deg, rgba(26,41,128,1) 0%, rgba(38,208,206,1) 100%);
 	background: -webkit-linear-gradient(45deg, rgba(26,41,128,1) 0%,rgba(38,208,206,1) 100%);
@@ -61,15 +59,17 @@ p {
 }
 
 #nametag {
-	width: 200px;
 	color: #FFFFFF;
-	border-radius: 10px;
-	font-size: 2em;
+	font-size: 6em;
 	font-weight: 300;
 	margin: 0px auto;
-	text-align: center;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+	font-weight: bold;
+	text-align: right;
+	/*text-shadow:
+	-1px 1px #000000,
+	-2px 2px #000000,
+	-3px 3px #000000,
+	-4px 4px #000000;*/
 }
 
 #location-pin {
