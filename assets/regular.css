@@ -19,10 +19,9 @@ html, body, div{
 /* -- GLOBAL ATTRIBUTES -- */
 body{
 	font-family: 'Heebo', sans-serif;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: 300;
-	color: #ffffff;
-
+	color: #414141;
 }
 ::selection {
 	background: #363A46; /* WebKit/Blink Browsers */
@@ -44,6 +43,12 @@ p {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a2980', endColorstr='#26d0ce',GradientType=1 );
 }
 
+.slide {
+	padding: 60px;
+}
+.slide.color-back {
+	color: #ffffff;
+}
 .slide[data-slide="title"] {
 	position: relative;
 	width: 100%;
@@ -62,7 +67,7 @@ p {
 }
 #nametag #my-name {
 	color: #FFFFFF;
-	font-size: 6em;
+	font-size: 5em;
 	font-weight: 300;
 	font-weight: bold;
 }
@@ -109,7 +114,7 @@ p {
 	height: 60px;
 }
 #nav a {
-	font-size: 2em;
+	font-size: 1.5em;
 	display: inline-block;
 	line-height: 60px;
 	height: 60px;
