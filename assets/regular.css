@@ -160,3 +160,13 @@ p {
 .grid-list > .item > .title {
 	text-align: center;
 }
+.grid-list > a.item {
+	text-decoration: none;
+	color: inherit;
+}
+.grid-list > .item .thumbnail {
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+  padding-bottom: 56.25%;
+}
