@@ -80,7 +80,6 @@ p {
 	color: rgba(0, 0, 0, 0.4);
 	line-height: 20px;
 	height: 20px;
-	font-weight: 500;
 	font-size: 1em;
 }
 #location-pin span {
@@ -118,6 +117,7 @@ p {
 	display: inline-block;
 	line-height: 60px;
 	height: 60px;
+	font-weight: bold;
 	padding: 0px 30px;
 	cursor: pointer;
 	background-image: linear-gradient(to top,
