@@ -74,12 +74,13 @@ p {
 
 #location-pin {
 	text-align: right;
-  position: relative;
-  top: -35px;
-  padding-right: 6px;
+	position: relative;
+	top: -35px;
+	padding-right: 6px;
 	color: rgba(0, 0, 0, 0.4);
 	line-height: 20px;
 	height: 20px;
+	font-weight: bold;
 	font-size: 1em;
 }
 #location-pin span {
