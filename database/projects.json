@@ -2,49 +2,65 @@
 	{
 		"name": "Bridon",
 		"tech_name": "bridon-industries",
+		"display": true,
 		"is_client": true,
+		"has_logo": true,
 		"url": "http://bridonindustries.com/"
 	},
 	{
 		"name": "Dons HWL",
 		"tech_name": "dons-hwl",
+		"display": true,
 		"is_client": true,
+		"has_logo": false,
 		"url": "http://donshollowwirelighting.com/"
 	},
 	{
 		"name": "Which Wallet",
 		"tech_name": "whichwallet",
+		"display": true,
 		"is_client": false,
+		"has_logo": false,
 		"url": "http://whichwallet.com/"
 	},
 	{
 		"name": "Mecono",
 		"tech_name": "mecono",
+		"display": true,
 		"is_client": false,
+		"has_logo": false,
 		"url": "https://github.com/jaksonkallio/mecono"
 	},
 	{
 		"name": "Altcart",
 		"tech_name": "altcart",
+		"display": false,
 		"is_client": false,
+		"has_logo": false,
 		"url": "https://github.com/jaksonkallio/altcart"
 	},
 	{
 		"name": "Tock",
 		"tech_name": "tock",
+		"display": true,
 		"is_client": false,
+		"has_logo": false,
 		"url": "https://github.com/jaksonkallio/tock"
 	},
 	{
 		"name": "Doc Sync",
 		"tech_name": "doc-sync-client",
+		"display": false,
 		"is_client": false,
+		"has_logo": false,
 		"url": "https://github.com/CryptoClubUMD/doc-sync-client"
 	},
 	{
 		"name": "Pinhead",
 		"tech_name": "pinhead",
+		"display": true,
 		"is_client": false,
+		"has_logo": false,
 		"url": "https://github.com/jaksonkallio/pinhead"
 	}
 ]
