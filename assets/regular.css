@@ -160,6 +160,11 @@ p {
 .grid-list > .item > .title {
 	text-align: center;
 }
+.grid-list > .item > .description {
+	font-size: 0.75em;
+	text-align: center;
+	opacity: 0.8;
+}
 .grid-list > a.item {
 	text-decoration: none;
 	color: inherit;
