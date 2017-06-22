@@ -5,6 +5,7 @@
 		"display": true,
 		"is_client": true,
 		"has_logo": true,
+		"description": "Bridon Industries is a custom valve manufacturing company in Shakopee, Minnesota. The project included a responsive desktop/mobile design, a few front-end scripts for the UI, and the usage of prescribed design assets.",
 		"url": "http://bridonindustries.com/"
 	},
 	{
@@ -13,6 +14,7 @@
 		"display": true,
 		"is_client": true,
 		"has_logo": false,
+		"description": "",
 		"url": "http://donshollowwirelighting.com/"
 	},
 	{
@@ -21,6 +23,7 @@
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
+		"description": "",
 		"url": "http://whichwallet.com/"
 	},
 	{
@@ -29,6 +32,7 @@
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
+		"description": "",
 		"url": "https://github.com/jaksonkallio/mecono"
 	},
 	{
@@ -37,6 +41,7 @@
 		"display": false,
 		"is_client": false,
 		"has_logo": false,
+		"description": "",
 		"url": "https://github.com/jaksonkallio/altcart"
 	},
 	{
@@ -45,6 +50,7 @@
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
+		"description": "",
 		"url": "https://github.com/jaksonkallio/tock"
 	},
 	{
@@ -53,6 +59,7 @@
 		"display": false,
 		"is_client": false,
 		"has_logo": false,
+		"description": "",
 		"url": "https://github.com/CryptoClubUMD/doc-sync-client"
 	},
 	{
@@ -61,6 +68,7 @@
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
+		"description": "",
 		"url": "https://github.com/jaksonkallio/pinhead"
 	}
 ]
