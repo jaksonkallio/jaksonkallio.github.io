@@ -17,9 +17,9 @@
    id="svg8"
    inkscape:version="0.92.1 r"
    sodipodi:docname="jk-icon-v2.svg"
-   inkscape:export-filename="/home/jaksonk/code/jaksonkallio.github.io/assets/structure/logos/jk-icon-v2.png"
-   inkscape:export-xdpi="96"
-   inkscape:export-ydpi="96">
+   inkscape:export-filename="/home/jaksonk/code/jaksonkallio.github.io/assets/structure/logos/jk-icon-v2-hd.png"
+   inkscape:export-xdpi="479.99997"
+   inkscape:export-ydpi="479.99997">
   <defs
      id="defs2">
     <linearGradient
@@ -59,11 +59,11 @@
      inkscape:current-layer="layer1"
      showgrid="false"
      units="px"
-     inkscape:window-width="2031"
-     inkscape:window-height="1271"
-     inkscape:window-x="45"
-     inkscape:window-y="72"
-     inkscape:window-maximized="0" />
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -72,7 +72,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
