@@ -50,7 +50,7 @@
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
-		"description": "",
+		"description": "A simple, terminal-based, clock for Linux computers written in C++ and shell.",
 		"url": "https://github.com/jaksonkallio/tock"
 	},
 	{
@@ -68,7 +68,7 @@
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
-		"description": "",
+		"description": "Web-UI for accessing images that have been pinned to the (highly experimental) Interplanetary File System network (IPFS).",
 		"url": "https://github.com/jaksonkallio/pinhead"
 	}
 ]
