@@ -60,6 +60,7 @@ p {
 .slide > .header {
 	margin-bottom: 15px;
 	font-size: 1.5em;
+	font-weight: bold;
 }
 .slide.center > .header {
 	text-align: center;
@@ -165,6 +166,7 @@ p {
 	transform: scale(1.05);
 }
 .grid-list > .item > .title {
+	font-weight: bold;
 	text-align: center;
 }
 .grid-list > .item > .description {
