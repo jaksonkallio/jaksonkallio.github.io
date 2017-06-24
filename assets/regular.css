@@ -139,6 +139,8 @@ p {
 	                                    #CCFF33);
 	background-position: 0 100%;
 	background-size: 100% 200%;
+	color: inherit;
+  text-decoration: none;
 	transition: all .2s;
 	background-repeat: no-repeat;
 }
