@@ -23,7 +23,7 @@
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
-		"description": "",
+		"description": "Which Wallet is a service that helps you find the perfect bitcoin wallet based on your requirements regarding security, usability, and principle.",
 		"url": "http://whichwallet.com/"
 	},
 	{
@@ -32,8 +32,8 @@
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
-		"description": "",
-		"url": "https://github.com/jaksonkallio/mecono"
+		"description": "Mecono is a hardware/protocol level project that enables P2P internet access using trustless discovery of how isolated nodes are connected and the indirect paths through the mesh between nodes.",
+		"url": "https://mecono.org"
 	},
 	{
 		"name": "Altcart",
