@@ -188,4 +188,9 @@ p {
 }
 .horizontal-layout[data-col="3"] .column {
 	width: calc(100% / 3);
+	padding: 15px;
+}
+.horizontal-layout[data-col="3"] .column > img {
+	width: 100%;
+	height: 100%;
 }
