@@ -61,6 +61,12 @@ p {
 	margin-bottom: 15px;
 	font-size: 1.5em;
 }
+.slide.center > .header {
+	text-align: center;
+}
+.slide.center[data-colored="grey"] {
+	background: #ecf0f1;
+}
 
 #nametag {
 	text-align: right;
