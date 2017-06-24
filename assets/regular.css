@@ -190,6 +190,14 @@ p {
 	width: calc(100% / 3);
 	padding: 15px;
 }
+.horizontal-layout[data-col="3"] a.column {
+	transform: scale(1.00);
+	cursor: pointer;
+	transition: all 0.2s;
+}
+.horizontal-layout[data-col="3"] a.column:hover {
+	transform: scale(1.05);
+}
 .horizontal-layout[data-col="3"] .column > img {
 	width: 100%;
 	height: 100%;
