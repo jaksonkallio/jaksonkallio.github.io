@@ -68,6 +68,9 @@ p {
 .slide.center[data-colored="grey"] {
 	background: #ecf0f1;
 }
+.slide.full {
+	padding: 0;
+}
 
 #nametag {
 	text-align: right;
@@ -211,4 +214,49 @@ p {
 .horizontal-layout[data-col="3"] .column > img {
 	width: 100%;
 	height: 100%;
+}
+
+.slide[data-slide="myself"] {
+	position: relative;
+	height: 400px;
+}
+.slide[data-slide="myself"] > div {
+	display: inline-block;
+}
+.slide[data-slide="myself"] .profile-picture {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 400px;
+	width: 400px;
+	background-position: center right;
+	background-size: cover;
+	filter: grayscale(100%);
+}
+.slide[data-slide="myself"] .background {
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	height: 100%;
+	width: calc(100% - 400px);
+	background: #414141;
+	color: #ffffff;
+}
+.slide[data-slide="myself"] .background .fade {
+	position: absolute;
+	height: 100%;
+	left: -400px;
+	width: 400px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,414141+100&0+0,1+100 */
+	background: -moz-linear-gradient(left,  rgba(0,0,0,0) 0%, rgba(65,65,65,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(left,  rgba(0,0,0,0) 0%,rgba(65,65,65,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to right,  rgba(0,0,0,0) 0%,rgba(65,65,65,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#414141',GradientType=1 ); /* IE6-9 */
+}
+.slide[data-slide="myself"] .about-paragraph {
+	position: absolute;
+	width: calc(60%);
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
