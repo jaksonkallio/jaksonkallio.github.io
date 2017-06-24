@@ -183,9 +183,9 @@ p {
 .horizontal-layout[data-width="narrow"] {
 	width: calc(30%);
 }
-.horizontal-layout .item {
+.horizontal-layout .column {
 	display: inline-block;
 }
-.horizontal-layout[data-col="3"] .item {
+.horizontal-layout[data-col="3"] .column {
 	width: calc(100% / 3);
 }
