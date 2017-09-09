@@ -1,3 +1,87 @@
 @media screen and (max-width: 800px){
-	
+	#nametag {
+		text-align: center;
+		position: absolute;
+		top: calc(50% - 0px);
+		left: 50%;
+		width: 100%;
+		transform: translate(-50%, -50%);
+	}
+	#nametag #my-name {
+		color: #FFFFFF;
+		font-size: 3em;
+		font-weight: 300;
+		font-weight: bold;
+	}
+
+	#location-pin {
+		text-align: center;
+		position: static;
+	}
+
+	#nav {
+		position: absolute;
+		bottom: 30px;
+		left: 30px;
+		right: 30px;
+		width: calc(100% - 60px);
+		height: 60px;
+	}
+	#nav a {
+		font-size: 1em;
+		text-align: center;
+		width: calc(100% / 3);
+	}
+
+	.grid-list {
+		width: 100%;
+	}
+	.grid-list > .item {
+		display: block;
+		width: 100%;
+	}
+
+	.slide[data-slide="social"] .horizontal-layout {
+		width: calc(100%);
+	}
+
+	.slide > .header {
+		text-align: center;
+	}
+
+	.slide[data-slide="myself"] .profile-picture {
+		position: static;
+		width: 100%;
+		height: 400px;
+		background-position: center top;
+		background-size: cover;
+	}
+	.slide[data-slide="myself"] .background {
+		margin-top: -10px;
+		position: static;
+		width: 100%;
+		background: #414141;
+		color: #ffffff;
+		height: initial;
+	}
+	.slide[data-slide="myself"] .background .fade {
+		position: absolute;
+		height: 400px;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,414141+100&0+0,1+100 */
+		background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(65,65,65,1) 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(65,65,65,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(65,65,65,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#414141',GradientType=1 ); /* IE6-9 */
+	}
+	.slide[data-slide="myself"] .about-paragraph {
+		position: static;
+		width: 100%;
+		text-align: center;
+		padding: 30px;
+		transform: none;
+	}
+
 }
