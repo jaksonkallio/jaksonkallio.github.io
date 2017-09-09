@@ -74,7 +74,7 @@
 	{
 		"name": "Pinhead",
 		"tech_name": "pinhead",
-		"display": true,
+		"display": false,
 		"is_client": false,
 		"has_logo": false,
 		"description": "Web-UI for accessing images that have been pinned to the (highly experimental) Interplanetary File System network (IPFS).",
