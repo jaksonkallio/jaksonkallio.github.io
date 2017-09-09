@@ -23,8 +23,8 @@
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
-		"description": "Which Wallet is a service that helps you find the perfect bitcoin wallet based on your requirements regarding security, usability, and principle.",
-		"url": "http://whichwallet.com/"
+		"description": "Which Wallet is a service that helps you find the perfect bitcoin wallet based on your requirements regarding security, usability, and principle. Project discontinued due to lack of donations.",
+		"url": "https://jaksonkallio.com/projects/code/which-wallet/"
 	},
 	{
 		"name": "Mecono",
@@ -34,6 +34,15 @@
 		"has_logo": false,
 		"description": "Mecono is a hardware/protocol level project that enables P2P internet access using trustless discovery of how isolated nodes are connected and the indirect paths through the mesh between nodes.",
 		"url": "https://mecono.org"
+	},
+	{
+		"name": "Jottico",
+		"tech_name": "jottico",
+		"display": true,
+		"is_client": false,
+		"has_logo": false,
+		"description": "Jottico is a simple markdown-based notetaking app. Project discontinued after lack of users. Project discontinued due to lack of users.",
+		"url": "https://jaksonkallio.com/projects/code/jottico/"
 	},
 	{
 		"name": "Altcart",
