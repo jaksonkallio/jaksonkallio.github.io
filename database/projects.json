@@ -33,7 +33,7 @@
 		"is_client": false,
 		"has_logo": false,
 		"description": "Mecono is a hardware/protocol level project that enables P2P internet access using trustless discovery of how isolated nodes are connected and the indirect paths through the mesh between nodes.",
-		"url": "https://mecono.org"
+		"url": "https://github.com/jaksonkallio/mecono"
 	},
 	{
 		"name": "Jottico",
