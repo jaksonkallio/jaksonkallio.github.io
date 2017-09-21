@@ -1,4 +1,4 @@
-/* -- FILE INFORMATION --
+f/* -- FILE INFORMATION --
 
 	Style for this website is designed and written by Jakson Kallio.
 	Copyright June 2017.
@@ -227,6 +227,18 @@ p {
 	height: 100%;
 }
 
+.slide.dark {
+	background: #414141;
+}
+.slide.dark a {
+	display: inline-block;
+	color: #ffffff;
+	border-bottom: 1px dashed #ffffff;
+}
+.slide.dark a:hover {
+	border-bottom: 1px solid #ffffff;
+}
+
 .slide[data-slide="resume"] {
 	color: #ffffff;
 	font-size: 1.25em;
@@ -236,6 +248,7 @@ p {
 
 .slide[data-slide="myself"] {
 	position: relative;
+	line-height: 1.5em;
 	height: 400px;
 }
 .slide[data-slide="myself"] > div {
