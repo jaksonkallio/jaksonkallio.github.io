@@ -79,5 +79,14 @@
 		"has_logo": false,
 		"description": "Web-UI for accessing images that have been pinned to the (highly experimental) Interplanetary File System network (IPFS).",
 		"url": "https://github.com/jaksonkallio/pinhead"
+	},
+        {
+		"name": "Porthodlio",
+		"tech_name": "porthodlio",
+		"display": true,
+		"is_client": false,
+		"has_logo": false,
+		"description": "Simple, lightweight, open source Java application to track cryptocurrency assets and profits.",
+		"url": "https://github.com/jaksonkallio/porthodlio"
 	}
 ]

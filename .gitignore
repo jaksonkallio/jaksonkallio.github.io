@@ -1,3 +1,4 @@
 *.swp
 *.swo
 common/passwords.php
+/nbproject/private/
