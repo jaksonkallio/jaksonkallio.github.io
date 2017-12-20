@@ -79,5 +79,32 @@
 		"has_logo": false,
 		"description": "Web-UI for accessing images that have been pinned to the (highly experimental) Interplanetary File System network (IPFS).",
 		"url": "https://github.com/jaksonkallio/pinhead"
+	},
+        {
+		"name": "Porthodlio",
+		"tech_name": "porthodlio",
+		"display": true,
+		"is_client": false,
+		"has_logo": false,
+		"description": "Simple, lightweight, open source Java application to track cryptocurrency assets and profits.",
+		"url": "https://github.com/jaksonkallio/porthodlio"
+	},
+        {
+		"name": "JaksonKallio.com",
+		"tech_name": "jaksonkallio-com",
+		"display": true,
+		"is_client": false,
+		"has_logo": false,
+		"description": "My personal website's source code.",
+		"url": "https://github.com/jaksonkallio/jaksonkallio.github.io"
+	},
+        {
+		"name": "Sisu Land Surveying",
+		"tech_name": "sisuland",
+		"display": true,
+		"is_client": false,
+		"has_logo": false,
+		"description": "Company website for a small Minnesota-based civil engineering firm.",
+		"url": "https://jaksonkallio.github.io/sisuland/sisuland-web/public_html/"
 	}
 ]
