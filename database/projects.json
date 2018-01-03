@@ -106,5 +106,14 @@
 		"has_logo": false,
 		"description": "Company website for a small Minnesota-based civil engineering firm.",
 		"url": "https://jaksonkallio.github.io/sisuland/sisuland-web/public_html/"
+	},
+	{
+		"name": "SendRai",
+		"tech_name": "sendrai",
+		"display": true,
+		"is_client": false,
+		"has_logo": false,
+		"description": "RaiBlocks cryptocurrency payment processor.",
+		"url": "https://jaksonkallio.com/projects/sendrai/"
 	}
 ]
