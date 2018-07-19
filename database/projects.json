@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Bridon",
+		"name": "Bridon Industries",
 		"tech_name": "bridon-industries",
 		"display": true,
 		"is_client": true,
@@ -9,22 +9,13 @@
 		"url": "http://bridonindustries.com/"
 	},
 	{
-		"name": "Dons HWL",
-		"tech_name": "dons-hwl",
-		"display": true,
-		"is_client": true,
-		"has_logo": false,
-		"description": "Don Colston is an enthusiast for hollow wire lighting. His website is clean and simple: it consists of some basic information about his hobby and live photo galleries of his creations.",
-		"url": "http://donshollowwirelighting.com/"
-	},
-	{
 		"name": "Which Wallet",
 		"tech_name": "whichwallet",
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
 		"description": "Which Wallet is a service that helps you find the perfect bitcoin wallet based on your requirements regarding security, usability, and principle. Project discontinued due to lack of donations.",
-		"url": "https://jaksonkallio.com/projects/code/which-wallet/"
+		"url": "https://github.com/jaksonkallio/which-wallet"
 	},
 	{
 		"name": "Mecono",
@@ -45,15 +36,6 @@
 		"url": "https://jaksonkallio.com/projects/code/jottico/"
 	},
 	{
-		"name": "Altcart",
-		"tech_name": "altcart",
-		"display": false,
-		"is_client": false,
-		"has_logo": false,
-		"description": "",
-		"url": "https://github.com/jaksonkallio/altcart"
-	},
-	{
 		"name": "Tock",
 		"tech_name": "tock",
 		"display": true,
@@ -61,24 +43,6 @@
 		"has_logo": false,
 		"description": "A simple, terminal-based, clock for Linux computers written in C++ and shell.",
 		"url": "https://github.com/jaksonkallio/tock"
-	},
-	{
-		"name": "Doc Sync",
-		"tech_name": "doc-sync-client",
-		"display": false,
-		"is_client": false,
-		"has_logo": false,
-		"description": "",
-		"url": "https://github.com/CryptoClubUMD/doc-sync-client"
-	},
-	{
-		"name": "Pinhead",
-		"tech_name": "pinhead",
-		"display": false,
-		"is_client": false,
-		"has_logo": false,
-		"description": "Web-UI for accessing images that have been pinned to the (highly experimental) Interplanetary File System network (IPFS).",
-		"url": "https://github.com/jaksonkallio/pinhead"
 	},
         {
 		"name": "Porthodlio",
@@ -98,22 +62,13 @@
 		"description": "My personal website's source code.",
 		"url": "https://github.com/jaksonkallio/jaksonkallio.github.io"
 	},
-        {
-		"name": "Sisu Land Surveying",
-		"tech_name": "sisuland",
-		"display": true,
-		"is_client": false,
-		"has_logo": false,
-		"description": "Company website for a small Minnesota-based civil engineering firm.",
-		"url": "https://jaksonkallio.github.io/sisuland/sisuland-web/public_html/"
-	},
 	{
-		"name": "SendRai",
+		"name": "SendNano",
 		"tech_name": "sendrai",
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
-		"description": "RaiBlocks cryptocurrency payment processor.",
-		"url": "https://jaksonkallio.com/projects/sendrai/"
+		"description": "Nano cryptocurrency payment processor.",
+		"url": "https://sendnano.com"
 	}
 ]
