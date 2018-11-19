@@ -1,64 +1,31 @@
 [
 	{
-		"name": "Bridon Industries",
-		"tech_name": "bridon-industries",
-		"display": true,
-		"is_client": true,
-		"has_logo": true,
-		"description": "Bridon Industries is a custom hydraulic solutions manufacturing company based in Shakopee, Minnesota. The project included a responsive desktop/mobile design, a few front-end scripts for the UI, and the usage of prescribed design assets.",
-		"url": "http://bridonindustries.com/"
-	},
-	{
-		"name": "Which Wallet",
-		"tech_name": "whichwallet",
-		"display": true,
-		"is_client": false,
-		"has_logo": false,
-		"description": "Which Wallet is a service that helps you find the perfect bitcoin wallet based on your requirements regarding security, usability, and principle. Project discontinued due to lack of donations.",
-		"url": "https://github.com/jaksonkallio/which-wallet"
-	},
-	{
 		"name": "Mecono",
 		"tech_name": "mecono",
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
-		"description": "Mecono is a hardware/protocol level project that enables P2P internet access using trustless discovery of how isolated nodes are connected and the indirect paths through the mesh between nodes.",
+		"tags": ["Java", "Hardware", "Protocol", "Network"],
+		"description": "My most ambitious project. Mecono is a hardware/protocol level project that enables P2P internet access using trustless discovery of how isolated nodes are connected and the indirect paths through the mesh between nodes.",
 		"url": "https://github.com/jaksonkallio/mecono"
 	},
 	{
-		"name": "Jottico",
-		"tech_name": "jottico",
+		"name": "Bridon Industries",
+		"tech_name": "bridon-industries",
 		"display": true,
-		"is_client": false,
-		"has_logo": false,
-		"description": "Jottico is a simple markdown-based notetaking app. Project discontinued due to lack of users.",
-		"url": "https://jaksonkallio.com/projects/code/jottico/"
+		"is_client": true,
+		"has_logo": true,
+		"tags": ["HTML/CSS", "Javascript", "Vector Graphics"],
+		"description": "One of my first web design contracts. Bridon Industries is a custom hydraulic solutions manufacturing company based in Shakopee, Minnesota. The project included a responsive desktop/mobile design, a few front-end scripts for the UI, and the usage of prescribed design assets.",
+		"url": "http://bridonindustries.com/"
 	},
-	{
-		"name": "Tock",
-		"tech_name": "tock",
-		"display": true,
-		"is_client": false,
-		"has_logo": false,
-		"description": "A simple, terminal-based, clock for Linux computers written in C++ and shell.",
-		"url": "https://github.com/jaksonkallio/tock"
-	},
-        {
-		"name": "Porthodlio",
-		"tech_name": "porthodlio",
-		"display": true,
-		"is_client": false,
-		"has_logo": false,
-		"description": "Simple, lightweight, open source Java application to track cryptocurrency assets and profits.",
-		"url": "https://github.com/jaksonkallio/porthodlio"
-	},
-        {
+	 {
 		"name": "JaksonKallio.com",
 		"tech_name": "jaksonkallio-com",
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
+		"tags": ["HTML/CSS", "Javascript", "PHP", "SQL"],
 		"description": "My personal website's source code.",
 		"url": "https://github.com/jaksonkallio/jaksonkallio.github.io"
 	},
@@ -68,7 +35,47 @@
 		"display": true,
 		"is_client": false,
 		"has_logo": false,
-		"description": "Nano cryptocurrency payment processor.",
-		"url": "https://sendnano.com"
+		"tags": ["Cryptocurrency", "Blockchain", "Java", "Database"],
+		"description": "Nano cryptocurrency payment processor. Created as an honors CS project. Closed source.",
+		"url": "https://www.youtube.com/watch?v=DRHNS_d3Pbc"
+	},
+	{
+		"name": "Which Wallet",
+		"tech_name": "whichwallet",
+		"display": true,
+		"is_client": false,
+		"has_logo": false,
+		"tags": ["HTML/CSS", "Cryptocurrency", "Javascript"],
+		"description": "Which Wallet is a service that helps you find the perfect bitcoin wallet based on your requirements regarding security, usability, and principle. Project discontinued due to lack of donations.",
+		"url": "https://github.com/jaksonkallio/which-wallet"
+	},
+	{
+		"name": "Jottico",
+		"tech_name": "jottico",
+		"display": true,
+		"is_client": false,
+		"has_logo": false,
+		"tags": ["HTML/CSS", "JS", "PHP", "SQL"],
+		"description": "Jottico is a simple markdown-based notetaking app. Project discontinued due to lack of users.",
+		"url": "https://github.com/jaksonkallio/jottico"
+	},
+	{
+		"name": "Tock",
+		"tech_name": "tock",
+		"display": true,
+		"is_client": false,
+		"has_logo": false,
+		"tags": ["C++", "Shell"],
+		"description": "A simple, terminal-based, clock for Linux computers written in C++ and shell.",
+		"url": "https://github.com/jaksonkallio/tock"
+	},
+        {
+		"name": "Porthodlio",
+		"tech_name": "porthodlio",
+		"display": false,
+		"is_client": false,
+		"has_logo": false,
+		"description": "Simple, lightweight, open source Java application to track cryptocurrency assets and profits.",
+		"url": "https://github.com/jaksonkallio/porthodlio"
 	}
 ]
