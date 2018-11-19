@@ -7,7 +7,7 @@
 		"has_logo": false,
 		"tags": ["Java", "Hardware", "Protocol", "Network"],
 		"description": "My most ambitious project. Mecono is a hardware/protocol level project that enables P2P internet access using trustless discovery of how isolated nodes are connected and the indirect paths through the mesh between nodes.",
-		"url": "https://github.com/jaksonkallio/mecono"
+		"url": "https://mecono.org"
 	},
 	{
 		"name": "Bridon Industries",
