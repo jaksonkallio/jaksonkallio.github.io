@@ -1,5 +1,15 @@
 [
 	{
+		"name": "Cryptocurrency and Blockchain Paper",
+		"tech_name": "cryptocurrency-whitepaper",
+		"display": true,
+		"is_client": false,
+		"has_logo": false,
+		"tags": ["Writing", "Cryptocurrency", "Blockchain"],
+		"description": "A comprehensive 40+ page whitepaper about cryptocurrency for distribution to law enforcement and financial institutions. Written and published during my time with the NCFTA.",
+		"url": "https://jaksonkallio.github.io/assets/structure/documents/cryptocurrency-whitepaper.pdf"
+	},
+	{
 		"name": "Mecono",
 		"tech_name": "mecono",
 		"display": true,
@@ -56,7 +66,7 @@
 		"is_client": false,
 		"has_logo": false,
 		"tags": ["HTML/CSS", "JS", "PHP", "SQL"],
-		"description": "Jottico is a simple markdown-based notetaking app. Project discontinued due to lack of users.",
+		"description": "Jottico is a simple markdown-based notetaking app. One of my first projects. Project discontinued due to lack of users.",
 		"url": "https://github.com/jaksonkallio/jottico"
 	},
 	{
@@ -69,7 +79,7 @@
 		"description": "A simple, terminal-based, clock for Linux computers written in C++ and shell.",
 		"url": "https://github.com/jaksonkallio/tock"
 	},
-        {
+	{
 		"name": "Porthodlio",
 		"tech_name": "porthodlio",
 		"display": false,
