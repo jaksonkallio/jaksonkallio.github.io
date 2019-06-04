@@ -1,58 +1,44 @@
-<!DOCTYPE html>
 <html>
 	<head>
-		<!--META-->
 		<title>Jakson Kallio</title>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-		<!--STYLE SHEETS-->
-		<link href="assets/regular.css" rel="stylesheet" type="text/css" media="screen" />
+		<link href="assets/style.css" rel="stylesheet" type="text/css" media="screen" />
 		<link href="assets/mobile.css" rel="stylesheet" type="text/css" media="screen" />
-		<link rel="shortcut icon" type="image/png" href="assets/structure/logos/jk-icon-v2.ico"/>
-		<!--SCRIPTS-->
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script src="assets/objects.js"></script>
-		<script src="assets/script.js"></script>
+		<script src="assets/util.js"></script>
 	</head>
+	<script id="subpage-script" type="application/javascript"></script>
 	<body>
-		<div class="slide color-back" data-slide="title">
-			<div id="nametag">
-				<div id="my-name">jakson kallio</div>
-				<div id="location-pin">
-					<img src="assets/structure/icons/location.svg" />
-					Duluth, MN
+		<div id="page">
+			<div id="nav">
+				<div id="profile-photo">
+					<div class="wrapper">
+						<img src="assets/img/jakson-kallio.png"/>
+					</div>
+				</div>
+				<div id="bio">
+					Hey there! My name is <em>Jakson Kallio</em>.
+					<br><br>
+					I'm an experienced
+					<br>
+					<em>full-stack developer</em> that enjoys working on projects related to
+					<br>
+					<em>cryptocurrency</em>,
+					<br>
+					<em>decentralization</em>,
+					<br>
+					and <em>AI</em>.
+				</div>
+				<div id="contact">
+					Send an <a href="assets/img/email.png" target="_BLANK">email</a>
+					<br>
+					Message on <a href="https://www.t.me/JaksonK" target="_BLANK">Telegram</a>
+					<br>
+					Connect with <a href="https://linkedin.com/in/jaksonkallio" target="_BLANK">LinkedIn</a>
 				</div>
 			</div>
-			<div id="nav"><a href="#projects">
-				Projects
-			</a><a href="#social">
-				Social
-			</a><a href="#myself">
-				Me
-			</a></div>
-		</div>
-		<div id="projects" class="slide" data-slide="projects">
-			<div class="header">Projects</div>
-			<div class="grid-list"></div>
-		</div>
-		<div id="social" class="slide center" data-slide="social" data-colored="grey">
-			<div class="header">Let's Talk</div>
-			<div class="horizontal-layout" data-col="2" data-width="narrow">
-				<a class="column" target="_blank" href="https://github.com/jaksonkallio">
-					<img src="assets/structure/icons/github.svg"/>
-				</a><a class="column" target="_blank" href="https://www.linkedin.com/in/jaksonkallio/">
-					<img src="assets/structure/icons/linkedin.svg"/>
-				</a>
-			</div>
-		</div>
-		<a href="assets/structure/documents/jakson-kallio-resume.pdf" target="_BLANK"><div id="resume" class="slide" data-slide="resume">
-			View my resume for skills and experience →
-		</div></a>
-		<div id="myself" class="slide full dark" data-slide="myself">
-			<div class="profile-picture" style="background-image:url('assets/structure/headshot/left-look-formal.jpg');"></div><div class="background">
-				<div class="fade"></div><div class="about-paragraph">
-					I'm a Computer Science student and experienced full stack developer that's passionate about cryptocurrency and blockchain technology. As a proponent of cryptocurrency since 2013, I've been involved as many roles: developer, investor, and community member. After college my goal is to work with this amazing technology at an innovative and fast-moving company.
-				</div>
+			<div id="content">
+				Content Here
 			</div>
 		</div>
 	</body>

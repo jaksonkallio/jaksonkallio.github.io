@@ -1,0 +1,135 @@
+/* Scheme
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro|Roboto+Mono&display=swap');
+html, textarea, input {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+html {
+	min-height: 100%;
+	color: #2f3542;
+	background: #f1f2f6;
+}
+html, .split > .side, .font-reset {
+	font-size: 16px;
+}
+
+/* Globals */
+* {
+	box-sizing: border-box;
+}
+
+/* Template */
+body {
+	position: relative;
+}
+#page {
+	position: absolute;
+	width: 800px;
+	top: 10vh;
+	left: calc(50% - 400px);
+}
+#nav {
+	position: absolute;
+	left: 0;
+	width: 250px;
+	padding-right: 25px;
+}
+#content {
+	position: absolute;
+	right: 0;
+	padding-left: 25px;
+	width: 550px;
+}
+#nav #profile-photo > .wrapper {
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	padding: 3px;
+	background: #23074d;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top right, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top right, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	box-shadow: 0px 2px 3px -1px rgba(0,0,0,0.4);
+}
+#nav #profile-photo > .wrapper > img {
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+	display: block;
+	margin: 0 auto;
+}
+#links {
+	margin-top: 25px;
+}
+#links a {
+	display: inline-block;
+	color: inherit;
+	line-height: 30px;
+	padding: 0 0;
+	border-radius: 3px;
+	transition: color 0.2s;
+}
+#links a span, #links a img {
+	vertical-align: middle;
+	display: inline-block;
+}
+#links a span {
+	font-weight: 600;
+}
+#links a img {
+	margin-right: 5px;
+	height: 14px;
+	transition: margin-right 0.2s;
+}
+#links a:hover img {
+	margin-right: 8px;
+}
+#links a:hover span {
+	color: #00dbde;  /* fallback for old browsers */
+}
+#bio {
+	font-family: 'Roboto Mono', monospace;
+	text-align: left;
+	margin-top: 50px;
+	background: #23074d;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to top, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+}
+#bio em {
+	font-weight: 600;
+	font-style: normal;
+}
+#bio:before, #bio:after {
+	content: "/*\A";
+	font-weight: bold;
+	white-space: pre;
+}
+#bio:after {
+	content: "\A*/";
+}
+#contact {
+	margin-top: 50px;
+}
+#contact a {
+	display: inline-block;
+	color: inherit;
+	text-decoration: none;
+	transition: all 0.2s;
+	border-bottom: 1px dashed;
+}
+#contact a:hover {
+	color: #cc5333;
+	border-bottom: 1px solid;
+}
+
+h1 {
+	height: 100px;
+	line-height: 100px;
+	margin: 0;
+}
